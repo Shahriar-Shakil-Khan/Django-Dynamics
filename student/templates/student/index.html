@@ -48,7 +48,7 @@
         </div>
     </nav>
 
-    <form class="container" method="post">
+    <form class="container" method="post" >
         {% csrf_token %}
         <h1>Student Form</h1>
 
@@ -72,7 +72,7 @@
 
         <div class="mb-3">
             <label for="formFile" class="form-label">Upload Picture</label>
-            <input class="form-control" type="file" id="formFile" name="photo">
+            <input class="form-control" type="file" id="formFile" name="photo" Required>
         </div>
 
         <div class="mb-3">
